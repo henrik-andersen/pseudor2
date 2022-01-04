@@ -1,0 +1,12 @@
+Package: pseudor2
+Title: Pseudo R2: A package for getting some common pseudo R squared measures from fitted glm objects. 
+Version: 0.0.0.9000
+Authors@R: 
+    person("Henrik Kenneth", "Andersen", , "henrik.andersen@soziologie.tu-chemnitz.de", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-6842-5337"))
+Description: The package takes a fitted glm object and returns some common pseudo R2 measures. At the moment, it returns the McFadden, Cox and Snell and Nagelkerke R square measures.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2.9000
